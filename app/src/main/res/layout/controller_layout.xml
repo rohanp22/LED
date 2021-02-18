@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingTop="5dp"
+    android:paddingRight="5dp">
+
+    <LinearLayout
+        android:id="@+id/btn_context"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/kz_jm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:padding="3dp"
+            android:paddingBottom="1dp"
+            android:text="@string/kz_jm"
+            android:textColor="#9c9c9c"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeeee" />
+
+        <Button
+            android:id="@+id/kz_ld"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:padding="3dp"
+            android:paddingTop="1dp"
+            android:text="@string/kz_ld"
+            android:textColor="#9c9c9c"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeeee" />
+
+        <Button
+            android:id="@+id/kz_xs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:padding="3dp"
+            android:paddingTop="1dp"
+            android:text="@string/kz_xs"
+            android:textColor="#9c9c9c"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeeee" />
+
+        <Button
+            android:id="@+id/kz_pswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:padding="3dp"
+            android:paddingTop="1dp"
+            android:text="@string/kz_pswd"
+            android:textColor="#9c9c9c"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeeee" />
+
+        <Button
+            android:id="@+id/kz_load"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:padding="3dp"
+            android:paddingTop="1dp"
+            android:text="@string/kz_load"
+            android:textColor="#9c9c9c"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeeee" />
+
+        <Button
+            android:id="@+id/kz_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:padding="3dp"
+            android:paddingTop="1dp"
+            android:text="@string/kz_save"
+            android:textColor="#9c9c9c"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

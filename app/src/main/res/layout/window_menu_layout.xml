@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="bottom" android:orientation="vertical" android:background="#ffffff" android:paddingLeft="5dp" android:paddingTop="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/btn_context" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:background="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bluetooth_device"/>
+        <Button android:textSize="25sp" android:textColor="#9c9c9c" android:gravity="center" android:id="@+id/btn_bluetooth_y" android:background="#ffffff" android:paddingBottom="1dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bluetooth_dialog_ypd"/>
+        <View android:background="#eeeeee" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <Button android:textSize="25sp" android:textColor="#9c9c9c" android:gravity="center" android:id="@+id/btn_bluetooth_n" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bluetooth_dialog_new"/>
+    </LinearLayout>
+</LinearLayout>

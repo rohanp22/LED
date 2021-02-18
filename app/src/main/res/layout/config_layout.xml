@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="80sp" android:layout_height="40dp" android:text="@string/item_text_dialog_cfg_time"/>
+            <Spinner android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/spinner_time" android:background="@drawable/spinnerbg" android:layout_width="wrap_content" android:layout_height="40dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="80sp" android:layout_height="40dp" android:text="@string/item_text_dialog_cfg_action"/>
+            <Spinner android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/spinner_action" android:background="@drawable/spinnerbg" android:layout_width="wrap_content" android:layout_height="40dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="80sp" android:layout_height="40dp" android:text=""/>
+            <CheckBox android:textSize="12sp" android:gravity="center" android:id="@+id/toggleButton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_text_dialog_cfg_ss"/>
+            <CheckBox android:textSize="12sp" android:gravity="center" android:id="@+id/toggleButton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/item_text_dialog_cfg_boder"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="80sp" android:layout_height="40dp" android:text="@string/item_text_dialog_cfg_qr"/>
+            <Button android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/spinner_qr" android:background="@drawable/spinnerbg" android:layout_width="wrap_content" android:layout_height="40dp" android:scrollbarFadeDuration="0"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/save" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/btn_Ok" android:layout_weight="1"/>
+        <Button android:id="@+id/cancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/btn_Cancel" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="30dp">
+    <CheckBox android:gravity="center" android:id="@+id/check_xz" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/item_flag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_text"/>
+    <EditText android:enabled="false" android:id="@+id/context" android:layout_width="match_parent" android:layout_height="match_parent" android:singleLine="true" android:layout_weight="2" android:inputType="text" android:imeOptions="actionDone"/>
+    <Button android:enabled="false" android:textSize="12sp" android:id="@+id/btn_fontOrimage" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/item_text_btn_off" android:layout_weight="3"/>
+    <Button android:enabled="false" android:textSize="12sp" android:id="@+id/btn_cfg" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/item_text_btn_cfg" android:layout_weight="3"/>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:background="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/kz_jm"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:textSize="18sp" android:textColor="#9c9c9c" android:id="@+id/js_0" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/js_0"/>
+            <View android:background="#eeeeee" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="3dp" android:layout_marginBottom="3dp"/>
+            <Button android:textSize="18sp" android:textColor="#9c9c9c" android:id="@+id/js_1" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/js_1"/>
+            <View android:background="#eeeeee" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="3dp" android:layout_marginBottom="3dp"/>
+            <Button android:textSize="18sp" android:textColor="#9c9c9c" android:id="@+id/js_2" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/js_2"/>
+            <View android:background="#eeeeee" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="3dp" android:layout_marginBottom="3dp"/>
+            <Button android:textSize="18sp" android:textColor="#9c9c9c" android:id="@+id/js_3" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/js_3"/>
+            <View android:background="#eeeeee" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="3dp" android:layout_marginBottom="3dp"/>
+            <Button android:textSize="18sp" android:textColor="#9c9c9c" android:id="@+id/js_4" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/js_4"/>
+            <View android:background="#eeeeee" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="3dp" android:layout_marginBottom="3dp"/>
+            <Button android:textSize="18sp" android:textColor="#9c9c9c" android:id="@+id/js_5" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/js_5"/>
+            <View android:background="#eeeeee" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="3dp" android:layout_marginBottom="3dp"/>
+            <Button android:textSize="18sp" android:textColor="#9c9c9c" android:id="@+id/js_6" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/js_6"/>
+            <View android:background="#eeeeee" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="3dp" android:layout_marginBottom="3dp"/>
+            <Button android:textSize="18sp" android:textColor="#9c9c9c" android:id="@+id/js_7" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/js_7"/>
+            <View android:background="#eeeeee" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="3dp" android:layout_marginBottom="3dp"/>
+            <Button android:textSize="18sp" android:textColor="#9c9c9c" android:id="@+id/js_8" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/js_8"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

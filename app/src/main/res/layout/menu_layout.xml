@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/menu_kz" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/buttom_menu_kz" android:layout_weight="1"/>
+    <Button android:id="@+id/menu_ld" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/buttom_menu_ld" android:layout_weight="1"/>
+    <Button android:id="@+id/menu_xs" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/buttom_menu_xs" android:layout_weight="1"/>
+    <Button android:id="@+id/menu_xz" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/buttom_menu_xz" android:layout_weight="1"/>
+    <Button android:id="@+id/menu_ss" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/buttom_menu_ss" android:layout_weight="1"/>
+    <Button android:id="@+id/menu_setLD" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/buttom_menu_setLD" android:layout_weight="1"/>
+    <Button android:id="@+id/menu_setJM" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/buttom_menu_setJM" android:layout_weight="1"/>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="bottom" android:orientation="vertical" android:background="@drawable/dialog" android:paddingLeft="5dp" android:paddingTop="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/btn_context" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="18sp" android:textColor="#9c9c9c" android:gravity="center" android:id="@+id/brig_1" android:background="#ffffff" android:padding="3dp" android:paddingBottom="1dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/brig_1"/>
+        <View android:background="#eeeeee" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <Button android:textSize="18sp" android:textColor="#9c9c9c" android:gravity="center" android:id="@+id/brig_2" android:background="#ffffff" android:padding="3dp" android:paddingTop="1dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/brig_2"/>
+        <View android:background="#eeeeee" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <Button android:textSize="18sp" android:textColor="#9c9c9c" android:gravity="center" android:id="@+id/brig_3" android:background="#ffffff" android:padding="3dp" android:paddingTop="1dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/brig_3"/>
+        <View android:background="#eeeeee" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <Button android:textSize="18sp" android:textColor="#9c9c9c" android:gravity="center" android:id="@+id/brig_4" android:background="@drawable/border_bottom" android:padding="3dp" android:paddingTop="1dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/brig_4"/>
+        <View android:background="#eeeeee" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <Button android:textSize="18sp" android:textColor="#9c9c9c" android:gravity="center" android:id="@+id/brig_5" android:background="@drawable/border_bottom" android:padding="3dp" android:paddingTop="1dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/brig_5"/>
+    </LinearLayout>
+    <AbsoluteLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/wzimg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fx" android:contentDescription="@string/app_name"/>
+    </AbsoluteLayout>
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="time">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </array>
+    <array name="action">
+        <item>Move Left</item>
+        <item>Move Right</item>
+        <item>Move Up</item>
+        <item>Move Down</item>
+        <item>Motionless</item>
+        <item>Reserved</item>
+        <item>Snow</item>
+        <item>Divide</item>
+    </array>
+    <array name="fontSize">
+        <item>size 16</item>
+        <item>size 15</item>
+        <item>size 14</item>
+        <item>size 13</item>
+        <item>size 12</item>
+        <item>size 8</item>
+    </array>
+    <array name="textFontStyle">
+        <item>Normal</item>
+        <item>thick</item>
+        <item>tilted</item>
+        <item>Thick and tilted</item>
+    </array>
+    <array name="qianru">
+        <item>nothing</item>
+        <item>Left [HH:MM:SS]</item>
+        <item>Right [HH:MM:SS]</item>
+        <item>Middle [HH:MM:SS]</item>
+        <item>Left [HH:MM]</item>
+        <item>Right [HH:MM]</item>
+        <item>Middle [HH:MM]</item>
+        <item>Left [YY-MM-DD]</item>
+        <item>Right [YY-MM-DD]</item>
+        <item>Middle [YY-MM-DD]</item>
+        <item>Left [DD-MM-YY]</item>
+        <item>Right [DD-MM-YY]</item>
+        <item>Middle [DD-MM-YY]</item>
+        <item>Left LOGO</item>
+        <item>Right LOGO</item>
+        <item>Middle LOGO</item>
+    </array>
+</resources>
